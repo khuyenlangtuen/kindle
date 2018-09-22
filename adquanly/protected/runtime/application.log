@@ -1,0 +1,240 @@
+2016/07/18 10:18:12 [error] [php] Undefined variable: cate_title (/var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php:379)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=category/capnhatchuyenmuc&id=8
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (379)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:34:40 [error] [exception.CException] exception 'CException' with message 'Thuộc tính "Category.main_image_pair" chưa được định nghĩa.' in /var/www/html/alanphanWeb/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/db/ar/CActiveRecord.php(145): CComponent->__get('main_image_pair')
+#1 /var/www/html/alanphanWeb/adquanly/protected/views/category/form.php(77): CActiveRecord->__get('main_image_pair')
+#2 /var/www/html/alanphanWeb/framework/web/CBaseController.php(126): require('/var/www/html/a...')
+#3 /var/www/html/alanphanWeb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/a...', Array, true)
+#4 /var/www/html/alanphanWeb/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/a...', Array, true)
+#5 /var/www/html/alanphanWeb/framework/web/CController.php(782): CController->renderPartial('form', Array, true)
+#6 /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php(356): CController->render('form', Array)
+#7 /var/www/html/alanphanWeb/framework/web/actions/CInlineAction.php(49): CategoryController->actionCapnhatchuyenmuc()
+#8 /var/www/html/alanphanWeb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/html/alanphanWeb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/html/alanphanWeb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CController->run('capnhatchuyenmu...')
+#12 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('category/capnha...')
+#13 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#15 {main}
+REQUEST_URI=/adquanly/index.php?r=category/capnhatchuyenmuc&id=8
+---
+2016/07/18 11:37:18 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:42:26 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:45:05 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:45:31 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:45:43 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:45:54 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:46:28 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:46:35 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:47:21 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:47:31 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 11:47:46 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (327)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/18 14:40:12 [warning] [application] Failed to set unsafe attribute "id" of "Adminuser".
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/QuantriController.php (133)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/20 10:06:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "banners/index".' in /var/www/html/alanphanWeb/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('banners/index')
+#1 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/adquanly/index.php?r=banners/index
+---
+2016/07/20 10:07:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "banners/formadd".' in /var/www/html/alanphanWeb/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('banners/formadd')
+#1 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/adquanly/index.php?r=banners/formadd
+---
+2016/07/20 10:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "banners/partner".' in /var/www/html/alanphanWeb/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('banners/partner')
+#1 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/adquanly/index.php?r=banners/partner
+HTTP_REFERER=http://natek.alldemo.xyz/adquanly/index.php?r=content/gioithieu
+---
+2016/07/22 11:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "contect/index".' in /var/www/html/alanphanWeb/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('contect/index')
+#1 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/adquanly/index.php?r=contect/index
+HTTP_REFERER=http://natek.alldemo.xyz/adquanly/index.php?r=contact/index
+---
+2016/07/22 11:11:57 [warning] [application] Failed to set unsafe attribute "id" of "General".
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/ContactController.php (27)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/22 11:11:57 [error] [php] Undefined variable: id (/var/www/html/alanphanWeb/adquanly/protected/controllers/ContactController.php:31)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): ContactController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): ContactController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): ContactController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=contact/index
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/ContactController.php (31)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/22 11:14:11 [error] [php] Undefined index: item (/var/www/html/alanphanWeb/adquanly/protected/controllers/ContactController.php:26)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): ContactController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): ContactController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): ContactController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=contact/index
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/ContactController.php (26)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/25 08:17:26 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (142)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/25 08:17:26 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (160)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/25 08:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "news".' in /var/www/html/alanphanWeb/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(270): CController->missingAction('news')
+#1 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CController->run('news')
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('category/news')
+#3 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/adquanly/index.php?r=category/news
+HTTP_REFERER=http://natek.alldemo.xyz/adquanly/index.php?r=quantri/updategroup&id=4
+---
+2016/07/25 08:27:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Hệ thống không thể tìm được hành động yêu cầu "news".' in /var/www/html/alanphanWeb/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(270): CController->missingAction('news')
+#1 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CController->run('news')
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('category/news')
+#3 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/adquanly/index.php?r=category/news
+HTTP_REFERER=http://natek.alldemo.xyz/adquanly/index.php?r=category/news
+---
+2016/07/25 11:12:09 [error] [php] Undefined variable: ac (/var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php:275)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=category/tintuc
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (275)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/25 11:12:14 [error] [php] Undefined variable: ac (/var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php:275)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=category/tintuc
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (275)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/25 11:15:37 [warning] [application] Failed to set unsafe attribute "0" of "Images".
+in /var/www/html/alanphanWeb/adquanly/protected/models/Category.php (90)
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/CategoryController.php (238)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
+2016/07/26 09:09:58 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT count(*) as dem FROM ck_admingroup_privileges ap, ck_admingroup_links al where ap.group_id=al.group_id and ap.privilege like '%banners%' and al.adminuser_id=;.
+in /var/www/html/alanphanWeb/adquanly/protected/models/DModels.php (227)
+in /var/www/html/alanphanWeb/adquanly/protected/views/blocks/nav.php (5)
+in /var/www/html/alanphanWeb/adquanly/protected/views/layouts/main.php (79)
+2016/07/26 09:09:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand không thể thi hành câu truy vấn SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT count(*) as dem FROM ck_admingroup_privileges ap, ck_admingroup_links al where ap.group_id=al.group_id and ap.privilege like '%banners%' and al.adminuser_id=;' in /var/www/html/alanphanWeb/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/html/alanphanWeb/adquanly/protected/models/DModels.php(227): CDbCommand->queryRow()
+#2 /var/www/html/alanphanWeb/adquanly/protected/views/blocks/nav.php(5): DModels::check_show_menu('banners', NULL)
+#3 /var/www/html/alanphanWeb/framework/web/CBaseController.php(126): require('/var/www/html/a...')
+#4 /var/www/html/alanphanWeb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/a...', NULL, true)
+#5 /var/www/html/alanphanWeb/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/a...', NULL, true)
+#6 /var/www/html/alanphanWeb/adquanly/protected/views/layouts/main.php(79): CController->renderPartial('//blocks/nav')
+#7 /var/www/html/alanphanWeb/framework/web/CBaseController.php(126): require('/var/www/html/a...')
+#8 /var/www/html/alanphanWeb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/a...', Array, true)
+#9 /var/www/html/alanphanWeb/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/html/a...', Array, true)
+#10 /var/www/html/alanphanWeb/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#11 /var/www/html/alanphanWeb/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#12 /var/www/html/alanphanWeb/framework/web/CBaseController.php(206): COutputProcessor->run()
+#13 /var/www/html/alanphanWeb/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#14 /var/www/html/alanphanWeb/adquanly/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#15 /var/www/html/alanphanWeb/framework/web/CBaseController.php(126): require('/var/www/html/a...')
+#16 /var/www/html/alanphanWeb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/a...', Array, true)
+#17 /var/www/html/alanphanWeb/framework/web/CController.php(784): CBaseController->renderFile('/var/www/html/a...', Array, true)
+#18 /var/www/html/alanphanWeb/adquanly/protected/controllers/BannersController.php(44): CController->render('index', Array)
+#19 /var/www/html/alanphanWeb/framework/web/actions/CInlineAction.php(49): BannersController->actionIndex()
+#20 /var/www/html/alanphanWeb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#21 /var/www/html/alanphanWeb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#22 /var/www/html/alanphanWeb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): CController->run('index')
+#24 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController('banners/index')
+#25 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /var/www/html/alanphanWeb/adquanly/index.php(18): CApplication->run()
+#27 {main}
+REQUEST_URI=/adquanly/index.php?r=banners/index
+---
+2016/07/27 09:41:42 [error] [php] Undefined index: name (/var/www/html/alanphanWeb/adquanly/protected/controllers/HoidapController.php:81)
+Stack trace:
+#0 /var/www/html/alanphanWeb/framework/web/CController.php(286): HoidapController->runAction()
+#1 /var/www/html/alanphanWeb/framework/web/CController.php(265): HoidapController->runActionWithFilters()
+#2 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(282): HoidapController->run()
+#3 /var/www/html/alanphanWeb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/alanphanWeb/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/alanphanWeb/adquanly/index.php(18): CWebApplication->run()
+REQUEST_URI=/adquanly/index.php?r=Hoidap/formadd
+in /var/www/html/alanphanWeb/adquanly/protected/controllers/HoidapController.php (81)
+in /var/www/html/alanphanWeb/adquanly/index.php (18)
